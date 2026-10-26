@@ -7,8 +7,8 @@ const PRIORITY_VALUE_THRESHOLD = 1000;
 const USER_VALUE_LIMIT = 500;
 
 export class ReportGenerator {
-  constructor(database) {
-    this.db = database;
+  constructor() {
+    // Dead code removido: parâmetro 'database' e this.db nunca eram utilizados
   }
 
   /**
